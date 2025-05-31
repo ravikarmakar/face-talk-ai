@@ -7,6 +7,7 @@ import { BotIcon, VideoIcon, StarIcon } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator";
+import { DashboardUserButton } from "./dashboard-user-button";
 import {
   Sidebar,
   SidebarContent,
@@ -18,8 +19,6 @@ import {
   SidebarMenuButton,
   SidebarFooter,
 } from "@/components/ui/sidebar";
-
-import { DashboardUserButton } from "./dashboard-user-button";
 
 const firstSection = [
   {
